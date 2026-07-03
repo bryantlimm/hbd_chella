@@ -800,7 +800,7 @@ export default function BirthdayPhotobooth() {
     if (!finalImage) return;
     const link = document.createElement('a');
     link.href = finalImage;
-    link.download = `birthday-photobooth-${Date.now()}.png`;
+    link.download = `chella-birthday-card-${Date.now()}.png`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
