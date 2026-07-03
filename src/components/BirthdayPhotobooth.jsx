@@ -533,7 +533,7 @@ function CollagePreviewPanel({ image, onDownload, onStartOver }) {
           onClick={onDownload}
           className="rounded-full bg-gradient-to-r from-[#2FE6A7] to-[#28D19A] px-7 py-3 font-semibold text-[#181033] shadow-lg shadow-[#2FE6A7]/30 transition hover:scale-[1.03] active:scale-95"
         >
-          Download ⬇
+          Download
         </button>
         <button
           type="button"
